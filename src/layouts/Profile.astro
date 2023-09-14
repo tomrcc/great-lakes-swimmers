@@ -1,0 +1,90 @@
+---
+import Layout from "./Layout.astro";
+import { getCollection } from "astro:content";
+import type { MarkdownLayoutProps } from "astro";
+import '../styles/main.scss';
+
+type Props =
+  | {
+      name: string;
+      designation: string;
+      image: string;
+      image_alt: string;
+      body: string;
+    }
+  | MarkdownLayoutProps<{
+      name: string;
+      designation: string;
+      image: string;
+      image_alt: string;
+    }>;
+
+const props = Astro.props.frontmatter ?? Astro.props;
+const { name, designation, image, image_alt } = props;
+
+---
+
+<Layout {...props}>
+  <main>
+    <section>
+      <div>
+        <a class="inline-flex items-center py-5 hover:text-[#034AD8]" href="/profiles/">
+          <i class="ph-arrow-left mr-2 text-xl" ></i>
+          <span class="hover:underline hover:underline-offset-4">Back</span>
+        </a>
+        <div class="grid md:grid-cols-2 gap-8">
+          <img
+            class="rounded-lg"
+            src={image}
+            alt={image_alt}
+          />
+            <div>
+              <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold">{name}</h1>
+              <div>
+                <p>{designation}</p>
+              </div>
+              <div class="mx-auto my-16 max-w-[900px] font-light leading-6">
+                <h2>About {name}</h2>
+                <slot />
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</Layout>
+
+<style>
+  .post-size {
+    position: relative;
+  }
+
+  .post-size::after {
+    position: absolute;
+    content: '';
+    background: #4d4d4d;
+    width: 1px;
+    height: 15px;
+    top: 50%;
+    right: -10%;
+    transform: translate(-50%,-50%)
+  }
+
+  @media (min-width: 640px) {
+    .post-data-list-item {
+      position: relative;
+    }
+    
+    .post-data-list-item::after {
+      position: absolute;
+      content: '';
+      background: #4d4d4d;
+      width: 1px;
+      height: 15px;
+      top: 50%;
+      right: -12%;
+      transform: translate(-50%,-50%)
+    }
+	}
+</style>
+

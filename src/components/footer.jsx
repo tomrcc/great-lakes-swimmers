@@ -27,7 +27,7 @@ export default function Footer({}) {
 			</div>
 			<ul className="flex lg:flex-col justify-center lg:justify-start gap-5 lg:col-start-3 lg:row-start-1 lg:text-end">
 				{footer.links.map((link, i) => (
-					<li className="hover:underline hover:underline-offset-4" key={i}>
+					<li className="hover:underline hover:underline-offset-4 hover:text-[#034AD8]" key={i}>
 						<a href={`${link.link}`}>{link.text}</a>
 					</li>
 				))}

@@ -12,20 +12,13 @@ const seoSchema = z
   })
   .optional();
 
-const blogCollection = defineCollection({
+const profilesCollection = defineCollection({
   schema: z.object({
-    date: z.date(),
     title: z.string(),
-    tags: z.array(z.string()),
-    author: z.string(),
-    thumb_image: z.object({
-      image: z.string(),
-      image_alt: z.string(),
-    }),
-    featured_image: z.object({
-      image: z.string(),
-      image_alt: z.string(),
-    }),
+    name: z.string(),
+    designation: z.string(),
+    image: z.string(),
+    image_alt: z.string(),
     seo: seoSchema,
   }),
 });
@@ -53,6 +46,6 @@ const pagesCollection = defineCollection({
 });
 
 export const collections = {
-  blog: blogCollection,
+  profiles: profilesCollection,
   pages: pagesCollection,
 };

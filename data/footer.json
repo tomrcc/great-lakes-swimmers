@@ -4,12 +4,12 @@
   "copyright": "MyCompany. All rights reserved.",
   "links": [
     {
-      "link": "/blog/",
-      "text": "Blog"
+      "link": "/",
+      "text": "Home"
     },
     {
-      "link": "/feed.xml",
-      "text": "RSS Feed"
+      "link": "/profiles/",
+      "text": "Profiles"
     }
   ],
   "social": [

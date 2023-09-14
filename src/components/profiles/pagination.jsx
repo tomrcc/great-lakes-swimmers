@@ -1,4 +1,4 @@
-export default function BlogPagination({ pagination }) {
+export default function ProfilePagination({ pagination }) {
   const {
     currentPage,
     lastPage,
@@ -17,7 +17,7 @@ export default function BlogPagination({ pagination }) {
           className={`page-link btn btn-secondary ${
             i === currentPage ? "active" : ""
           }`}
-          href={i === 1 ? "/blog" : `/blog/${i}`}
+          href={i === 1 ? "/" : `/profiles/${i}`}
         >
           {i}
         </a>
@@ -27,7 +27,7 @@ export default function BlogPagination({ pagination }) {
 
   return (
     <>
-      <nav className="blog-pagination">
+      <nav className="profiles-pagination">
         <ul className="pagination">
           {prev && (
             <li className="page-item">
@@ -39,7 +39,7 @@ export default function BlogPagination({ pagination }) {
                   viewBox="0 0 20.657 11.314"
                   style={{ transform: "scale(-1, 1)" }}
                 >
-                  <g fill="#fff" data-name="Group 12">
+                  <g data-name="Group 12">
                     <path d="M0 4.657h18v2H0z" data-name="Rectangle 2400" />
                     <path
                       d="M13.586 9.9l5.6568542-5.6568542 1.4142136 1.4142135-5.6568542 5.6568543z"
@@ -64,7 +64,7 @@ export default function BlogPagination({ pagination }) {
                   height="11.314"
                   viewBox="0 0 20.657 11.314"
                 >
-                  <g fill="#fff" data-name="Group 12">
+                  <g data-name="Group 12">
                     <path d="M0 4.657h18v2H0z" data-name="Rectangle 2400" />
                     <path
                       d="M13.586 9.9l5.6568542-5.6568542 1.4142136 1.4142135-5.6568542 5.6568543z"

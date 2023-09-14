@@ -1,6 +1,5 @@
 ---
-import BlogList from "../components/blog/list";
-import BlogPagination from "../components/blog/pagination";
+import ProfileList from "../components/profiles/list";
 import Layout, { type SEOProps } from "../layouts/Layout.astro";
 import { getCollection, getEntry } from 'astro:content';
 
@@ -12,18 +11,19 @@ type Props = {
   };
 };
 
-const { frontmatter } = Astro.props
 const { slug } = Astro.params
 let pageSlug = slug;
 if (pageSlug === undefined) {
-  pageSlug = "index"
-};
+    pageSlug = "index"
+  };
 const page = await getEntry("pages", pageSlug);
-let posts = await getCollection('blog');
-posts = posts.slice(0, frontmatter.page_size);
+
+const { frontmatter } = Astro.props
+let profiles = await getCollection('profiles');
+profiles = profiles.slice(0, frontmatter.page_size);
 ---
 
 <Layout {...frontmatter}>
   <slot />
-  <BlogList posts={posts} page={page}/>
+  <ProfileList profiles={profiles} page={page} />
 </Layout>
