@@ -4,6 +4,7 @@ name: "Coen Simmons"
 designation: "Head of Design"
 image: "/images/team/7.jpg"
 image_alt: "Team member: Coen Simmons"
+location: "Baker College"
 seo:
   page_description:
   canonical_url:

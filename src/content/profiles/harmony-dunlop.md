@@ -4,6 +4,7 @@ name: "Harmony Dunlop"
 designation: "Head of Sales"
 image: "/images/team/5.jpg"
 image_alt: "Team member: Harmony Dunlop"
+location: "Baker College"
 seo:
   page_description:
   canonical_url:

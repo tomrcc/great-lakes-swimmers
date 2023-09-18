@@ -4,6 +4,7 @@ name: "Zachary Arias"
 designation: "Co-founder & CTO"
 image: "/images/team/4.jpg"
 image_alt: "Team member: Zachary Arias"
+location: "Will Rice College"
 seo:
   page_description:
   canonical_url:

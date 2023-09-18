@@ -4,6 +4,7 @@ name: "Elize Schwartz"
 designation: "CRO"
 image: "/images/team/6.jpg"
 image_alt: "Team member: Elize Schwartz"
+location: "Baker College"
 seo:
   page_description:
   canonical_url:

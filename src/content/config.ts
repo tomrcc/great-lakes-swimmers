@@ -19,6 +19,7 @@ const profilesCollection = defineCollection({
     designation: z.string(),
     image: z.string(),
     image_alt: z.string(),
+    location: z.string(),
     seo: seoSchema,
   }),
 });

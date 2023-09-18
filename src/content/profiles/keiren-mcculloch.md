@@ -4,6 +4,7 @@ name: Keiren Mcculloch
 designation: CMO
 image: /images/team/2.jpg
 image_alt: "Team member: Keiren Mcculloch"
+location: "Hanszen College"
 seo:
   page_description:
   canonical_url:

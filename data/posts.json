@@ -1,0 +1,164 @@
+[
+  {
+    "date": "2022-06-10T00:00:00Z",
+    "title": "5 things to improve your email templates",
+    "slug": "5-things-to-improve-your-email-templates",
+    "tags": [
+      "marketing",
+      "blog"
+    ],
+    "author": "Coen Simmons",
+    "thumb_image": {
+      "image": "/images/blog/blog-thumb-6.jpg",
+      "image_alt": "People working on laptops and looking at charts"
+    },
+    "featured_image": {
+      "image": "/images/blog/featured-image-2.jpg",
+      "image_alt": "Children looking at a laptop"
+    },
+    "seo": {
+      "page_description": "",
+      "canonical_url": "",
+      "featured_image": "/images/blog/featured-image-2.jpg",
+      "featured_image_alt": "",
+      "author_twitter_handle": "",
+      "open_graph_type": "article",
+      "no_index": false
+    }
+  },
+  {
+    "date": "2022-04-14T00:00:00.000Z",
+    "title": "7 things you didn't know about email",
+    "slug": "7-things-you-didn't-know-about-email",
+    "tags": [
+      "marketing",
+      "blog"
+    ],
+    "author": "Coen Simmons",
+    "thumb_image": {
+      "image": "/images/blog/blog-thumb-5.jpg",
+      "image_alt": "Group of people discussing something shwon on a laptop"
+    },
+    "featured_image": {
+      "image": "/images/blog/featured-image-3.jpg",
+      "image_alt": "Person drinking coffee"
+    },
+    "seo": {
+      "page_description": null,
+      "canonical_url": null,
+      "featured_image": "/images/blog/featured-image-3.jpg",
+      "featured_image_alt": null,
+      "author_twitter_handle": null,
+      "open_graph_type": "article",
+      "no_index": false
+    }
+  },
+  {
+    "date": "2022-03-11T00:00:00.000Z",
+    "title": "Best email sending services",
+    "slug": "best-email-sending-services",
+    "tags": [
+      "technology",
+      "blog"
+    ],
+    "author": "Coen Simmons",
+    "thumb_image": {
+      "image": "/images/blog/blog-thumb-3.jpg",
+      "image_alt": "Staff meeting"
+    },
+    "featured_image": {
+      "image": "/images/blog/featured-image-5.jpg",
+      "image_alt": "Laptop, phone and coffee"
+    },
+    "seo": {
+      "page_description": null,
+      "canonical_url": null,
+      "featured_image": "/images/blog/featured-image-5.jpg",
+      "featured_image_alt": null,
+      "author_twitter_handle": null,
+      "open_graph_type": "article",
+      "no_index": false
+    }
+  },
+  {
+    "date": "2022-03-10T00:00:00.000Z",
+    "title": "Email delivery tips",
+    "slug": "email-delivery-tips",
+    "tags": [
+      "email",
+      "blog"
+    ],
+    "author": "Elize Shwartz",
+    "thumb_image": {
+      "image": "/images/blog/blog-thumb-1.jpg",
+      "image_alt": "Arial shot of people working"
+    },
+    "featured_image": {
+      "image": "/images/blog/featured-image.jpg",
+      "image_alt": "Child using a computer"
+    },
+    "seo": {
+      "page_description": null,
+      "canonical_url": null,
+      "featured_image": "/images/blog/featured-image.jpg",
+      "featured_image_alt": null,
+      "author_twitter_handle": null,
+      "open_graph_type": "article",
+      "no_index": false
+    }
+  },
+  {
+    "date": "2022-03-09T00:00:00.000Z",
+    "title": "How to host better email marketing campaigns?",
+    "slug": "how-to-host-better-email-marketing-campaigns?",
+    "tags": [
+      "marketing",
+      "blog"
+    ],
+    "author": "Elize Shwartz",
+    "thumb_image": {
+      "image": "/images/blog/blog-thumb-2.jpg",
+      "image_alt": "People conversing"
+    },
+    "featured_image": {
+      "image": "/images/blog/featured-image-2.jpg",
+      "image_alt": "Children looking at a computer"
+    },
+    "seo": {
+      "page_description": null,
+      "canonical_url": null,
+      "featured_image": "/images/blog/featured-image-2.jpg",
+      "featured_image_alt": null,
+      "author_twitter_handle": null,
+      "open_graph_type": "article",
+      "no_index": false
+    }
+  },
+  {
+    "date": "2022-03-07T00:00:00.000Z",
+    "title": "What are the best email clients?",
+    "slug": "what-are-the-best-email-clients?",
+    "tags": [
+      "marketing",
+      "blog"
+    ],
+    "author": "Fran Figureson",
+    "thumb_image": {
+      "image": "/images/blog/blog-thumb-4.jpg",
+      "image_alt": "Group of people working"
+    },
+    "featured_image": {
+      "image": "/images/blog/featured-image-4.jpg",
+      "image_alt": "Person drinking coffee"
+    },
+    "seo": {
+      "page_description": null,
+      "canonical_url": null,
+      "featured_image": "/images/blog/featured-image-4.jpg",
+      "featured_image_alt": null,
+      "author_twitter_handle": null,
+      "open_graph_type": "article",
+      "no_index": false
+    }
+  }
+]

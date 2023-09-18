@@ -4,6 +4,7 @@ name: "Piers Reyes"
 designation: "Head of Marketing"
 image: "/images/team/3.jpg"
 image_alt: "Team member: Piers Reyes"
+location: "Jones College"
 seo:
   page_description:
   canonical_url:

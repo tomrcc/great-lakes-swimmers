@@ -4,6 +4,7 @@ name: Nikolas Mcconnell
 designation: Co-Founder & CEO
 image: "/images/team/1.jpg"
 image_alt: "Team member: Nikolas Mcconnell"
+location: "Hanszen College"
 seo:
   page_description:
   canonical_url:

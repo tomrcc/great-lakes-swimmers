@@ -15,6 +15,7 @@ if (!profile) {
   throw new Error("Failed to get profile with slug: " + Astro.params.slug);
 }
 const { Content } = await profile.render();
+const profiles = await getCollection("profiles");
 ---
 
 <ProfileLayout {...profile.data} body={profile.body}>

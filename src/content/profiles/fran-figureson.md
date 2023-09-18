@@ -4,6 +4,7 @@ name: "Fran Figureson"
 designation: "Head of People"
 image: "/images/team/8.jpg"
 image_alt: "Team member: Fran Figureson"
+location: "Baker College"
 seo:
   page_description:
   canonical_url:
