@@ -10,7 +10,7 @@ seo:
   featured_image: "/images/team/8.jpg"
   featured_image_alt:
   author_twitter_handle:
-  open_graph_type: article
+  open_graph_type: profile
   no_index: false
 ---
 
